@@ -1,5 +1,3 @@
-import com.sun.org.apache.xpath.internal.operations.Mod;
-
 
 public class Exemplo6 {
 	/*  Escrever um algoritmo que leia 10 números e conte quantos números são pares e quanto são impares.*/
