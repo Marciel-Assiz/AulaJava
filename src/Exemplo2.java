@@ -8,19 +8,21 @@ public class Exemplo2 {
 		int codigo; double salario;
 		
 		codigo = Console.readInt("Bom dia, digite seu código de colaborador(1-2-3): ");
-		salario = Console.readInt("Bom dia, digite seu ultimo salario: ");
+		salario = Console.readDouble("Bom dia, digite seu ultimo salario: ");
 		
 		switch (codigo) 
 		{
 		   case 1:
 			   salario = salario + salario * 0.5;	
-		         System.out.println ("O valor do seu salario é R$"+ salario);
-		           break;
+			   System.out.println ("O valor do seu salario é R$"+ salario);
+	           break;
 		   case 2:
-			   	System.out.println ("O valor do seu salario é R$"+ salario+salario*0.3);
-		           break;
+			   salario = salario + salario * 0.3;
+			   	System.out.println ("O valor do seu salario é R$"+ salario);
+		        break;
 		  default:
-			  	System.out.println ("O valor do seu salario é R$"+ salario+salario*0.2);
+			  	salario = salario + salario * 0.2;
+			  	System.out.println ("O valor do seu salario é R$"+ salario);
 		}
 	}
 
